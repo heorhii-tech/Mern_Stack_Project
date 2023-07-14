@@ -1,0 +1,66 @@
+
+.header_section {
+    background-color: white;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo_img {
+    max-width: 60px;
+}
+.logo_header {
+    width: 60px;
+}
+.logo_header{
+    color: black;
+    margin-left: 20px;
+
+}
+.userName{
+    font-size: 20px;
+}
+.logo_header:hover{
+    color: rgba(192, 107, 0, 0.75);
+}
+
+.header_auth {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.auth_link {
+    transition: transform 0.6s ease;
+    color: black;
+}
+
+
+.auth_link:visited{
+    color: black;
+}
+.auth_link:hover {
+    color: rgba(192, 107, 0, 0.75);
+    transform: scale(1.1);
+}
+.full {
+    font-size: 30px;
+}
+
+.header_user {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,93 @@
+.posts_section{
+    margin-top: 150px;
+}
+.post_wrapper {
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    transition: transform 0.6s ease;
+    max-width: 50%;
+    margin: 0 auto 25px auto;
+
+}
+.post_wrapper:hover{
+
+}
+.post_title {
+    transition: transform 0.6s ease;
+font-size: 24px;
+    color: black;
+}
+
+
+.post_title:hover{
+    color: rgba(192,107,0,0.75);
+    transform: scale(1.2);
+}
+.post_desc {
+    text-align: left;
+    font-size: 20px;
+
+}
+.split{
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin-bottom: -20px;
+}
+.post_owner {
+    align-self: flex-start;
+}
+.post_owner h4{
+    font-size: 16px;
+}
+.post_owner p {
+    font-size: 12px;
+}
+a:visited{
+    color: black;
+}
+.comment{
+    color: #b6bdc9;
+    align-self: flex-end;
+    margin-right: 50px;
+
+
+}
+.fa-comment{
+    margin-right: 15px;
+}
+.comment:visited{
+    color: #b6bdc9;
+}
+.comment:hover{
+    color: rgba(192,107,0,0.75);
+}
+img{
+    max-width: 80%;
+   margin: auto;
+    border-radius: 5px;
+}
+
+.add{
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    transition: transform 0.6s ease;
+
+
+}
+.add:hover{
+    color: rgba(192,107,0,0.75);
+    transform: scale(1.2);
+}
